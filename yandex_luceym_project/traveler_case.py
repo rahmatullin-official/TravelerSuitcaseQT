@@ -207,20 +207,20 @@ class OutCountryWarmCamping(QMainWindow, OutcountryWarmCamping):
         self.setWindowTitle('Outcountry warm camping')  # заголовок
         self.setWindowIcon(QIcon('images/ico.png'))  # иконка
         self.button_outcountry_warm_camping_female.clicked.connect(
-            self.show_incountry_warm_camping_female)  # при нажатии на кнопку вызов функции
+            self.show_outcountry_warm_camping_female)  # при нажатии на кнопку вызов функции
         self.button_outcountry_warm_camping_male.clicked.connect(
-            self.show_incountry_warm_camping_male)  # при нажатии на кнопку вызов функции
+            self.show_outcountry_warm_camping_male)  # при нажатии на кнопку вызов функции
 
-    def show_incountry_warm_camping_male(self):
+    def show_outcountry_warm_camping_male(self):
         global DATA  # глобальная переменная
-        DATA = 'incountry_warm_camping_man'  # присвоение названия таблицы в глобальную переменную для генератора
+        DATA = 'outcountry_warm_camping_man'  # присвоение названия таблицы в глобальную переменную для генератора
         self.cams = ChecklistGenerator()  # переключение камеры на класс
         self.cams.show()  # показть класс
         self.close()  # закрыть класс
 
-    def show_incountry_warm_camping_female(self):
+    def show_outcountry_warm_camping_female(self):
         global DATA  # глобальная переменная
-        DATA = 'incountry_warm_camping_female'  # присвоение названия таблицы в глобальную переменную для генератора
+        DATA = 'outcountry_warm_camping_female'  # присвоение названия таблицы в глобальную переменную для генератора
         self.cams = ChecklistGenerator()  # переключение камеры на класс
         self.cams.show()  # показть класс
         self.close()  # закрыть класс
@@ -234,10 +234,10 @@ class OutCountryWarmExcursionn(QMainWindow, OutCountryWarmExcursion):
         self.setWindowIcon(QIcon('images/ico.png'))  # иконка
         self.button_outcountry_warm_excursion_female.clicked.connect(
             self.show_outcountry_warm_excursion_female)  # при нажатии на кнопку вызов функции
-        self.button_outcountry_warm_excursion_male.clicked.connect(
+        self.button_outcountry_warm_excursion_man.clicked.connect(
             self.show_outcountry_warm_excursion_male)  # при нажатии на кнопку вызов функции
 
-    def show_outcountry_warm_excursion_male(self):
+    def show_outcountry_warm_excursion_man(self):
         global DATA  # глобальная переменная
         DATA = 'outcountry_warm_excursion_man'  # присвоение названия таблицы в глобальную переменную для генератора
         self.cams = ChecklistGenerator()  # переключение камеры на класс
