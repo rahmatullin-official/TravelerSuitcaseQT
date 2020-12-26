@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>891</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">backgroud: opacity 0;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(./images/back.jpg);
+</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Luckiest Guy</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background: opacity 0;
+
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Luckiest Guy','cursive'; font-size:45px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:27pt;&quot;&gt;Tick your variant&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>470</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Merienda</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Merienda';
+color: #fff;
+font-weight: bold;
+font-size: 22px;
+background: opacity 0;</string>
+    </property>
+    <property name="text">
+     <string>GET READY FOR A TRIP WITHOUT ANY PROBLEMS!</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_cb">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>170</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>ПО СТРАНЕ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_warm_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>ТЕПЛО</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_cold_cb">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>260</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>ХОЛОДНО</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_beach_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>ПЛЯЖ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_warm_buisnesstrip_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>КОМАНДИРОВКА</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_mountains_cb">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>ГОРЫ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="incountry_cold_buisnesstrip_cb">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>400</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #ADFF2F;</string>
+    </property>
+    <property name="text">
+     <string>КОМАНДИРОВКА</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_cb">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>520</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;</string>
+    </property>
+    <property name="text">
+     <string>ЗА ГРАНИЦУ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_warm_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ТЕПЛО</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_cold_cb">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>570</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ХОЛОДНО</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_warm_hike_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>740</y>
+      <width>581</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ПОХОД С ПАЛАТКАМИ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_warm_excursion_cb">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>660</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ЭКСКУРСИЯ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcounty_cold_excursion_cb">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>670</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ЭКСКРУСИЯ</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="outcountry_cold_hike_cb">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>740</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sports World</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>NoAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: opacity 0;
+color: #FF69B4;
+</string>
+    </property>
+    <property name="text">
+     <string>ПОХОД С ПАЛАТКАМИ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_travel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>820</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: #425865;
+border: 2px solid #425865;
+border-radius: 30px;
+color: white;
+font-family: 'Luckiest Guy', cursive;
+font-size: 15px;
+}
+QPushButton:pressed{
+	background-color: #fa4244;
+}</string>
+    </property>
+    <property name="text">
+     <string>GET CHECKLIST!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
